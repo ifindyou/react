@@ -1,2 +1,2 @@
 var HelloWorld=require('./view/js/HelloWorld');
-HelloWorld.render('world');
+HelloWorld.render('world???');

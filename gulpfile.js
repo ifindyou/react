@@ -63,7 +63,7 @@ gulp.task('minifyjs',function(){
         .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(rename('init.min.js'))
-        .pipe(header(banner,{pkg:{name1:'wanghongxin',name2:'fuwei'}}))
+        .pipe(header(banner,{pkg:{name1:'wanghongxin',name2:'zhangtongtong'}}))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(paths.public));
 });
